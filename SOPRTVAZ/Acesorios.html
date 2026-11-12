@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="SPORTVAZ uma loja virtual, esportes, produtos esportivos, equipamentos esportivos, roupas esportivas, acessórios esportivos"
+    />
+    <title>SPORTVAZ | Acessórios</title>
+    <link rel="stylesheet" href="css/styleSPORTVAZ.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="principal">SPORTVAZ</h1>
+      <p>Uma loja virtual esportiva</p>
+    </header>
+    <nav class="navbar">
+      <a href="SPORTVAZ.HTML">Tudo</a>
+      <a href="Masculino.html">Masculino</a>
+      <a href="Feminino.html">Feminino</a>
+      <a href="Infantil.html">Infantil</a>
+      <a href="Acessorios.html" aria-current="page">Acessórios</a>
+    </nav>
+    <main>
+      <section class="banner">
+        <h2>Olá, seja bem-vindo à SPORTVAZ!</h2>
+        <p>
+          Aqui você encontra uma ampla variedade de produtos esportivos<br />
+          para todas as idades e estilos. Explore nossa loja virtual e descubra
+          equipamentos, roupas e acessórios de alta<br />
+          qualidade para praticar seu esporte favorito.
+        </p>
+      </section>
+
+      <section id="acessorios" class="category-section">
+        <h2>Acessórios esportivos</h2>
+
+        <div class="products">
+          <!-- PRODUTO 1: MOCHILA ESPORTIVA -->
+          <article class="product" id="acessorio-1">
+            <img
+              src="images/acessorios1.jpg"
+              alt="Mochila esportiva"
+              loading="lazy"
+            />
+            <h3>Mochila esportiva</h3>
+            <p>
+              Leve seus itens essenciais com praticidade para os treinos e para
+              o dia a dia.
+            </p>
+            <span class="price">R$ 129,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-1-cor-preta"
+                  name="acessorio-1-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-1-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-1-cor-azul"
+                  name="acessorio-1-cor"
+                  value="azul"
+                />
+                <label for="acessorio-1-cor-azul">Azul</label>
+                <input
+                  type="radio"
+                  id="acessorio-1-cor-cinza"
+                  name="acessorio-1-cor"
+                  value="cinza"
+                />
+                <label for="acessorio-1-cor-cinza">Cinza</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-1-quantidade"
+                  name="acessorio-1-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 2: GARRAFA ESPORTIVA -->
+          <article class="product" id="acessorio-2">
+            <img
+              src="images/acessorios2.jpg"
+              alt="Garrafa esportiva para água"
+              loading="lazy"
+            />
+            <h3>Garrafa esportiva</h3>
+            <p>
+              Mantenha-se hidratado durante seus treinos com esta garrafa
+              prática.
+            </p>
+            <span class="price">R$ 39,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-2-cor-preta"
+                  name="acessorio-2-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-2-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-2-cor-azul"
+                  name="acessorio-2-cor"
+                  value="azul"
+                />
+                <label for="acessorio-2-cor-azul">Azul</label>
+                <input
+                  type="radio"
+                  id="acessorio-2-cor-rosa"
+                  name="acessorio-2-cor"
+                  value="rosa"
+                />
+                <label for="acessorio-2-cor-rosa">Rosa</label>
+                <input
+                  type="radio"
+                  id="acessorio-2-cor-transparente"
+                  name="acessorio-2-cor"
+                  value="transparente"
+                />
+                <label for="acessorio-2-cor-transparente">Transparente</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-2-quantidade"
+                  name="acessorio-2-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 3: BONÉ ESPORTIVO -->
+          <article class="product" id="acessorio-3">
+            <img
+              src="images/acessorios3.jpg"
+              alt="Boné esportivo"
+              loading="lazy"
+            />
+            <h3>Boné esportivo</h3>
+            <p>
+              Complete seu visual esportivo e tenha mais proteção nos dias de
+              sol.
+            </p>
+            <span class="price">R$ 49,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-3-cor-preto"
+                  name="acessorio-3-cor"
+                  value="preto"
+                  required
+                />
+                <label for="acessorio-3-cor-preto">Preto</label>
+                <input
+                  type="radio"
+                  id="acessorio-3-cor-branco"
+                  name="acessorio-3-cor"
+                  value="branco"
+                />
+                <label for="acessorio-3-cor-branco">Branco</label>
+                <input
+                  type="radio"
+                  id="acessorio-3-cor-azul"
+                  name="acessorio-3-cor"
+                  value="azul"
+                />
+                <label for="acessorio-3-cor-azul">Azul</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-3-tamanho-unico"
+                  name="acessorio-3-tamanho"
+                  value="Único"
+                  required
+                />
+                <label for="acessorio-3-tamanho-unico">Único</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-3-quantidade"
+                  name="acessorio-3-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 4: BOLSA ESPORTIVA -->
+          <article class="product" id="acessorio-4">
+            <img
+              src="images/acessorios4.jpg"
+              alt="Bolsa esportiva"
+              loading="lazy"
+            />
+            <h3>Bolsa esportiva</h3>
+            <p>
+              Organize e transporte suas roupas e acessórios para a academia.
+            </p>
+            <span class="price">R$ 119,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-4-cor-preta"
+                  name="acessorio-4-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-4-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-4-cor-rosa"
+                  name="acessorio-4-cor"
+                  value="rosa"
+                />
+                <label for="acessorio-4-cor-rosa">Rosa</label>
+                <input
+                  type="radio"
+                  id="acessorio-4-cor-cinza"
+                  name="acessorio-4-cor"
+                  value="cinza"
+                />
+                <label for="acessorio-4-cor-cinza">Cinza</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-4-tamanho-unico"
+                  name="acessorio-4-tamanho"
+                  value="Único"
+                  required
+                />
+                <label for="acessorio-4-tamanho-unico">Único</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-4-quantidade"
+                  name="acessorio-4-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 5: LUVAS DE ACADEMIA -->
+          <article class="product" id="acessorio-5">
+            <img
+              src="images/acessorios5.jpg"
+              alt="Luvas para treino de academia"
+              loading="lazy"
+            />
+            <h3>Luvas de academia</h3>
+            <p>
+              Mais conforto e firmeza para segurar equipamentos durante os
+              exercícios.
+            </p>
+            <span class="price">R$ 59,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-5-cor-preta"
+                  name="acessorio-5-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-5-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-5-cor-rosa"
+                  name="acessorio-5-cor"
+                  value="rosa"
+                />
+                <label for="acessorio-5-cor-rosa">Rosa</label>
+                <input
+                  type="radio"
+                  id="acessorio-5-cor-cinza"
+                  name="acessorio-5-cor"
+                  value="cinza"
+                />
+                <label for="acessorio-5-cor-cinza">Cinza</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-5-tamanho-p"
+                  name="acessorio-5-tamanho"
+                  value="P"
+                  required
+                />
+                <label for="acessorio-5-tamanho-p">P</label>
+                <input
+                  type="radio"
+                  id="acessorio-5-tamanho-m"
+                  name="acessorio-5-tamanho"
+                  value="M"
+                />
+                <label for="acessorio-5-tamanho-m">M</label>
+                <input
+                  type="radio"
+                  id="acessorio-5-tamanho-g"
+                  name="acessorio-5-tamanho"
+                  value="G"
+                />
+                <label for="acessorio-5-tamanho-g">G</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-5-quantidade"
+                  name="acessorio-5-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 6: MUNHEQUEIRA ESPORTIVA -->
+          <article class="product" id="acessorio-6">
+            <img
+              src="images/acessorios6.jpg"
+              alt="Munhequeira esportiva"
+              loading="lazy"
+            />
+            <h3>Munhequeira esportiva</h3>
+            <p>
+              Acessório prático para acompanhar seus treinos e atividades
+              esportivas.
+            </p>
+            <span class="price">R$ 29,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-6-cor-preta"
+                  name="acessorio-6-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-6-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-6-cor-branca"
+                  name="acessorio-6-cor"
+                  value="branca"
+                />
+                <label for="acessorio-6-cor-branca">Branca</label>
+                <input
+                  type="radio"
+                  id="acessorio-6-cor-azul"
+                  name="acessorio-6-cor"
+                  value="azul"
+                />
+                <label for="acessorio-6-cor-azul">Azul</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-6-tamanho-unico"
+                  name="acessorio-6-tamanho"
+                  value="Único"
+                  required
+                />
+                <label for="acessorio-6-tamanho-unico">Único</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-6-quantidade"
+                  name="acessorio-6-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 7: MEIA ESPORTIVA -->
+          <article class="product" id="acessorio-7">
+            <img
+              src="images/acessorios7.jpg"
+              alt="Meia esportiva"
+              loading="lazy"
+            />
+            <h3>Meia esportiva</h3>
+            <p>
+              Conforto para seus pés durante caminhadas, corridas e treinos.
+            </p>
+            <span class="price">R$ 29,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-7-cor-preta"
+                  name="acessorio-7-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-7-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-7-cor-branca"
+                  name="acessorio-7-cor"
+                  value="branca"
+                />
+                <label for="acessorio-7-cor-branca">Branca</label>
+                <input
+                  type="radio"
+                  id="acessorio-7-cor-cinza"
+                  name="acessorio-7-cor"
+                  value="cinza"
+                />
+                <label for="acessorio-7-cor-cinza">Cinza</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-7-tamanho-34-38"
+                  name="acessorio-7-tamanho"
+                  value="34-38"
+                  required
+                />
+                <label for="acessorio-7-tamanho-34-38">34-38</label>
+                <input
+                  type="radio"
+                  id="acessorio-7-tamanho-39-43"
+                  name="acessorio-7-tamanho"
+                  value="39-43"
+                />
+                <label for="acessorio-7-tamanho-39-43">39-43</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-7-quantidade"
+                  name="acessorio-7-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 8: CORDA DE PULAR -->
+          <article class="product" id="acessorio-8">
+            <img
+              src="images/acessorios8.jpg"
+              alt="Corda de pular para exercícios"
+              loading="lazy"
+            />
+            <h3>Corda de pular</h3>
+            <p>
+              Uma opção prática para incluir exercícios aeróbicos na sua rotina.
+            </p>
+            <span class="price">R$ 34,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-8-cor-preta"
+                  name="acessorio-8-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-8-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-8-cor-azul"
+                  name="acessorio-8-cor"
+                  value="azul"
+                />
+                <label for="acessorio-8-cor-azul">Azul</label>
+                <input
+                  type="radio"
+                  id="acessorio-8-cor-rosa"
+                  name="acessorio-8-cor"
+                  value="rosa"
+                />
+                <label for="acessorio-8-cor-rosa">Rosa</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-8-quantidade"
+                  name="acessorio-8-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 9: POCHETE ESPORTIVA -->
+          <article class="product" id="acessorio-9">
+            <img
+              src="images/acessorios9.jpg"
+              alt="Pochete esportiva"
+              loading="lazy"
+            />
+            <h3>Pochete esportiva</h3>
+            <p>
+              Leve pequenos objetos com praticidade durante caminhadas e
+              corridas.
+            </p>
+            <span class="price">R$ 44,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-9-cor-preta"
+                  name="acessorio-9-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-9-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-9-cor-azul"
+                  name="acessorio-9-cor"
+                  value="azul"
+                />
+                <label for="acessorio-9-cor-azul">Azul</label>
+                <input
+                  type="radio"
+                  id="acessorio-9-cor-rosa"
+                  name="acessorio-9-cor"
+                  value="rosa"
+                />
+                <label for="acessorio-9-cor-rosa">Rosa</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-9-tamanho-unico"
+                  name="acessorio-9-tamanho"
+                  value="Único"
+                  required
+                />
+                <label for="acessorio-9-tamanho-unico">Único</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-9-quantidade"
+                  name="acessorio-9-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+
+          <!-- PRODUTO 10: TOALHA ESPORTIVA -->
+          <article class="product" id="acessorio-10">
+            <img
+              src="images/acessorios10.jpg"
+              alt="Toalha esportiva"
+              loading="lazy"
+            />
+            <h3>Toalha esportiva</h3>
+            <p>
+              Tenha mais praticidade para se secar durante e depois dos treinos.
+            </p>
+            <span class="price">R$ 24,90</span>
+
+            <form class="product-form" action="#" method="post">
+              <fieldset>
+                <legend>Selecione a cor:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-10-cor-preta"
+                  name="acessorio-10-cor"
+                  value="preta"
+                  required
+                />
+                <label for="acessorio-10-cor-preta">Preta</label>
+                <input
+                  type="radio"
+                  id="acessorio-10-cor-branca"
+                  name="acessorio-10-cor"
+                  value="branca"
+                />
+                <label for="acessorio-10-cor-branca">Branca</label>
+                <input
+                  type="radio"
+                  id="acessorio-10-cor-azul"
+                  name="acessorio-10-cor"
+                  value="azul"
+                />
+                <label for="acessorio-10-cor-azul">Azul</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Selecione o tamanho:</legend>
+                <input
+                  type="radio"
+                  id="acessorio-10-tamanho-unico"
+                  name="acessorio-10-tamanho"
+                  value="Único"
+                  required
+                />
+                <label for="acessorio-10-tamanho-unico">Único</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Quantidade:</legend>
+                <input
+                  type="number"
+                  id="acessorio-10-quantidade"
+                  name="acessorio-10-quantidade"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </fieldset>
+
+              <button type="button" class="add-to-cart">
+                Adicionar ao carrinho
+              </button>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Links principais do rodapé -->
+      <div class="footer-links">
+        <a href="SPORTVAZ.HTML">Início</a>
+        <a href="Masculino.html">Masculino</a>
+        <a href="Feminino.html">Feminino</a>
+        <a href="Infantil.html">Infantil</a>
+        <a href="Acessorios.html">Acessórios</a>
+      </div>
+
+      <!-- Links de Informações / Abas -->
+      <div class="infomation">
+        <div class="info-tabs">
+          <a
+            href="https://www.sportvaz.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Sobre nós</a
+          >
+          <a
+            href="https://www.sportvaz.com.br/contato"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Contato</a
+          >
+          <a
+            href="https://www.sportvaz.com.br/termos"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Termos de Serviço</a
+          >
+          <a
+            href="https://www.sportvaz.com.br/politica"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Política de Privacidade</a
+          >
+        </div>
+
+        <div class="payment-methods">
+          <p>Formas de pagamento:</p>
+          <img src="images/visa.png" alt="Visa" />
+          <img src="images/mastercard.png" alt="MasterCard" />
+          <img src="images/paypal.png" alt="PayPal" />
+        </div>
+      </div>
+
+      <!-- Redes Sociais com Ícones SVG -->
+      <div class="social-media">
+        <p>Siga-nos:</p>
+        <div class="social-icons">
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z"
+              />
+            </svg>
+            <span>Facebook</span>
+          </a>
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <!-- Twitter / X -->
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
+          >
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              />
+            </svg>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
+      <p>&copy; 2026 SPORTVAZ. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
